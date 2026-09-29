@@ -1,6 +1,6 @@
 # WAQS: Weight Absorption for Quadratic Probing and Affine Steering
 
-**Mohammad Mahdi Khalili, Ding Zhu**
+**Ding Zhu, Mohammad Mahdi Khalili**
 
 *Under review* · [Project page](https://khalilimahdi.github.io/publication/waqs)
 
@@ -99,9 +99,9 @@ The tests use a small random Llama model and check that:
 ## Citation
 
 ```bibtex
-@misc{khalili2026waqs,
+@misc{zhu2026waqs,
   title  = {{WAQS}: Weight Absorption for Quadratic Probing and Affine Steering},
-  author = {Khalili, Mohammad Mahdi and Zhu, Ding},
+  author = {Zhu, Ding and Khalili, Mohammad Mahdi},
   year   = {2026},
   note   = {Under review}
 }
