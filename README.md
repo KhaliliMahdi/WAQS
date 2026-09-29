@@ -1,6 +1,6 @@
 # WAQS: Weight Absorption for Quadratic Probing and Affine Steering
 
-**Ding Zhu, Mohammad Mahdi Khalili**
+**Ding Zhu, Mahdi Khalili**
 
 *Under review* · [Project page](https://khalilimahdi.github.io/publication/waqs)
 
