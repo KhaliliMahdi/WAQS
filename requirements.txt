@@ -1,0 +1,9 @@
+torch>=2.1
+transformers>=4.40
+accelerate>=0.26
+datasets>=2.14
+numpy
+scipy
+scikit-learn
+tqdm
+pytest
