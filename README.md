@@ -2,7 +2,7 @@
 
 **Ding Zhu, Mahdi Khalili**
 
-*Under review* · [Project page](https://khalilimahdi.github.io/publication/waqs)
+*Under review* · [Paper (arXiv)](https://arxiv.org/abs/2610.24367) · [Project page](https://khalilimahdi.github.io/publication/waqs)
 
 WAQS gives LLM activation steering that adapts to each input and adds no inference cost. A concept (e.g. harmful vs. harmless) is modeled with a quadratic probe f(x) = xᵀW_p x + w_pᵀx + b. Its gradient step, T(x) = x + α∇f(x) = (I + 2αW_p)x + αw_p, is affine in the activation, so it can be folded exactly into the adjacent linear layers with an offline weight update. The result is a standard checkpoint: no hooks, no custom inference code.
 
@@ -99,10 +99,10 @@ The tests use a small random Llama model and check that:
 ## Citation
 
 ```bibtex
-@misc{zhu2026waqs,
-  title  = {{WAQS}: Weight Absorption for Quadratic Probing and Affine Steering},
-  author = {Zhu, Ding and Khalili, Mohammad Mahdi},
-  year   = {2026},
-  note   = {Under review}
+@article{zhu2026waqs,
+  title   = {{WAQS}: Weight Absorption for Quadratic Probing and Affine Steering},
+  author  = {Zhu, Ding and Khalili, Mohammad Mahdi},
+  journal = {arXiv preprint arXiv:2610.24367},
+  year    = {2026}
 }
 ```
